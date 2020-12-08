@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Calculadora</title>
+    <script src="./calculadora.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form action="" name="calculadora">
+        <div id="calculadorajava">
+            <input type="text" id="tela" name="tela">
+            <div id="primeira">
+                <input type="button" value="7" class="btn" onclick="botao(value)">
+                <input type="button" value="8" class="btn" onclick="botao(value)">
+                <input type="button" value="9" class="btn" onclick="botao(value)">
+                <input type="button" value="/" class="operadores" onclick="botao(value)">
+            </div>
+            <div id="segunda">
+                <input type="button" value="4" class="btn" onclick="botao(value)">
+                <input type="button" value="5" class="btn" onclick="botao(value)">
+                <input type="button" value="6" class="btn" onclick="botao(value)">
+                <input type="button" value="*" class="operadores" onclick="botao(value)">
+            </div>
+            <div id="terceira">
+                <input type="button" value="1" class="btn" onclick="botao(value)">
+                <input type="button" value="2" class="btn" onclick="botao(value)">
+                <input type="button" value="3" class="btn" onclick="botao(value)">
+                <input type="button" value="-" class="operadores" onclick="botao(value)">
+            </div>
+            <div id="quarta">
+                <input type="button" value="C" class="btn" onclick="limpar()">
+                <input type="button" value="0" class="btn" onclick="botao(value)">
+                <input type="button" value="=" class="btn" onclick="calcula()">
+                <input type="button" value="+" class="operadores" onclick="botao(value)">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
